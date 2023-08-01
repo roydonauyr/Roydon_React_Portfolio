@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Roydon_React_Portfolio/static/css/main.2d0f074a.css",
+    "main.js": "/Roydon_React_Portfolio/static/js/main.9d48e15f.js",
+    "static/media/Citibank_Competition.png": "/Roydon_React_Portfolio/static/media/Citibank_Competition.cd46700b729df0389524.png",
+    "static/media/Resume.pdf": "/Roydon_React_Portfolio/static/media/Resume.aa0306af6536e663f9be.pdf",
+    "static/media/SE_Project_Carpark_Companion.png": "/Roydon_React_Portfolio/static/media/SE_Project_Carpark_Companion.bffc6684eca4fecce794.png",
+    "static/media/ProfilePic.jpg": "/Roydon_React_Portfolio/static/media/ProfilePic.64c7412661ff8c00873b.jpg",
+    "index.html": "/Roydon_React_Portfolio/index.html",
+    "main.2d0f074a.css.map": "/Roydon_React_Portfolio/static/css/main.2d0f074a.css.map",
+    "main.9d48e15f.js.map": "/Roydon_React_Portfolio/static/js/main.9d48e15f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d0f074a.css",
+    "static/js/main.9d48e15f.js"
+  ]
+}
