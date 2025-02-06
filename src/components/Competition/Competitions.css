@@ -29,6 +29,17 @@
     background: var(--color-primary);
 }
 
+.competition_item-cta{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.hide_button{
+    display: none;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .container.competition_container{

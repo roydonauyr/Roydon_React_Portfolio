@@ -8,7 +8,7 @@ import { TbAward } from "react-icons/tb";
 const about = () => {
   return (
     <section id="about">
-      <h5>Get To Know Testing Test Test</h5>
+      <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about_container">
@@ -27,19 +27,19 @@ const about = () => {
             <article className="about_card">
               <FaRegFolderOpen className="about_icon" />
               <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <small>Software engineering & Datascience projects</small>
             </article>
             <article className="about_card">
               <TbAward className="about_icon" />
               <h5>Competitions</h5>
-              <small>Participated: , Wins: </small>
+              <small>Participated: 7, Wins: 4</small>
             </article>
           </div>
 
           <p>
             Welcome to the story of my life. You can read some of the chapters
-            through the links above. I am a Y3 student in NTU studying Business
-            and Computer Science on path to 1st class Honours. Being an
+            through the links above. I am a fresh graduate from NTU attaining 1st class Honours for 
+            Business and Computer Science. Being an
             experimentalist who enjoys working with others, I aim to experiment
             and develop new products that would have a positive impact to
             society.

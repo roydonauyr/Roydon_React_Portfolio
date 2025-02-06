@@ -13,6 +13,11 @@ import { TbBrandMongodb } from "react-icons/tb";
 import { TbBrandPython } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
 
+//For cloud
+import {SiTerraform} from "react-icons/si";
+import {FaAws} from "react-icons/fa";
+import {SiMicrosoftazure} from "react-icons/si";
+
 const Experience = () => {
   return (
     <section id="experience">
@@ -90,6 +95,33 @@ const Experience = () => {
               <div>
                 <h4>NodeJs</h4>
                 <small className="text-light">Beginner</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* END OF BACKEND */}
+        <div className="experience_cloud">
+          <h3>Cloud Experience</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+              <SiTerraform className="experience_details-icon" />
+              <div>
+                <h4>Terraform</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <FaAws className="experience_details-icon" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiMicrosoftazure className="experience_details-icon" />
+              <div>
+                <h4>Azure</h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
           </div>

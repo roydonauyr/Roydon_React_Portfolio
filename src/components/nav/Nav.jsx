@@ -3,7 +3,7 @@ import "./Nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsFillJournalBookmarkFill } from "react-icons/bs";
-import { RiServiceLine } from "react-icons/ri";
+import { AiOutlineTrophy } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
 import { useState } from "react";
 
@@ -33,11 +33,11 @@ const Nav = () => {
         <BsFillJournalBookmarkFill />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav == "#services" ? "active" : ""}
+        href="#competitions"
+        onClick={() => setActiveNav("#competitions")}
+        className={activeNav == "#competitions" ? "active" : ""}
       >
-        <RiServiceLine />
+        <AiOutlineTrophy />
       </a>
       <a
         href="#contact"

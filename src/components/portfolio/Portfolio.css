@@ -22,7 +22,17 @@
     overflow: hidden;
 }
 
+.portfolio_image{
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .portfolio_item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio_item h4{
     margin: 1.2rem 0 2rem;
 }
 
@@ -35,8 +45,11 @@
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .portfolio_container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.5fr 0.5fr;
         gap: 1.2rem;
+    }
+    .portfolio_image{
+        height: 400px;
     }    
 }
 

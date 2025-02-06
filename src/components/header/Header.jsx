@@ -5,20 +5,17 @@ import HeaderSocials from "./HeaderSocials";
 
 //Assets
 import ProfilePic from "../../assets/ProfilePic.jpg";
+import light2 from "../../assets/light2.jpg";
 
 const Header = () => {
   return (
     <header>
+      <h2 className="name">Au Yew Rong Roydon</h2>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
-        <h1>Roydon Au</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h1>Welcome To My World</h1>
+        <h2>In this website you can find a description of my experimental development and some of my best projects</h2>
         <CTA />
         <HeaderSocials />
-
-        <div className="profile">
-          <img src={ProfilePic} alt="profile" />
-        </div>
 
         <a href="#contact" className="scroll_down">
           Scroll Down

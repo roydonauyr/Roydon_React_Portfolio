@@ -1,18 +1,45 @@
 header {
-  height: 100vh;
+  background-image: url("../../assets/light2.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 50vh;
   padding-top: 7rem;
   overflow: hidden;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0.3) to control the darkness (0 to 1) */
+  }
+}
+
+h1{
+  font-family: 'Avenir', sans-serif;
+  font-size: 100px;
+}
+
+.name{
+  font-family: 'Avenir', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .header_container {
   text-align: center;
   height: 100%;
+  width: 100%;
   position: relative;
 }
 
 /* CTA */
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -25,7 +52,7 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
+  left: 2rem;
   bottom: 3rem;
 }
 
@@ -36,19 +63,11 @@ header {
   background: var(--color-primary);
 }
 
-/* IMAGE */
-.profile {
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-}
 
 /* SCROLL DOWN */
 .scroll_down {
   position: absolute;
-  right: -2.3rem;
+  right: -1.4rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
@@ -57,15 +76,33 @@ header {
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
+  h1{
+    font-family: 'Avenir', sans-serif;
+    font-size: 50px;
+  }
+  h2{
+    font-family: 'Avenir', sans-serif;
+  }
+  .cta{
+    margin-top: 4.8rem;
+  }
   header {
-    height: 68vh;
+    height: 50vh;
   }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
+  h1{
+    font-family: 'Avenir', sans-serif;
+    font-size: 25px;
+  }
+  h2{
+    font-family: 'Avenir', sans-serif;
+    font-size: 15px;
+  }
   header {
-    height: 100vh;
+    height: 45vh;
   }
 
   .header_socials,
